@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-# gpt-2
+# gpt-2 long snippets
 results = [26.186927064720408,
  24.612248807707598,
  23.003873108134243,
@@ -14,13 +14,13 @@ lengths = [0, 10, 20, 30, 40, 50, 60, 70]
 
 plt.plot(lengths[:-1], results[:-1])
 plt.ylabel('BLEU score')
-plt.xlabel('number of characters in snippet')
+plt.xlabel('minimum number of characters in snippet')
 plt.title('GPT-2 and long snippets')
 
 plt.show()
 
 
-# marian
+# marian long snippets
 results = [37.81887503587737,
  37.409753269504954,
  35.711178050842165,
@@ -34,7 +34,7 @@ lengths = [0, 10, 20, 30, 40, 50, 60, 70]
 
 plt.plot(lengths[:-1], results[:-1])
 plt.ylabel('BLEU score')
-plt.xlabel('number of characters in snippet')
+plt.xlabel('minimum number of characters in snippet')
 plt.title('Marian and long snippets')
 
 plt.show()
