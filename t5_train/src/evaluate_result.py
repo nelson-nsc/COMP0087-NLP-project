@@ -18,7 +18,7 @@ def return_args():
 
     parser.add_argument('--repeat', type=int, default=0)
 
-    parser.add_argument('--use_mined', action="store_true")
+    parser.add_argument('--train_option', type=str, default='hq_mined', choices=['hq', 'hq_mined', 'hq_augment'])
 
     args = parser.parse_args()
     return args
@@ -27,41 +27,51 @@ def return_args():
 def main():
     args = return_args()
 
-    # 1. load files:
+    # 1. load ground truth:
     with open("../data/conala-test.json", 'r', encoding='utf-8') as targetFile:
         data = json.load(targetFile)
     target = [str(d['snippet']) for d in data]
 
-    prediction = []
-    with open(f"../result/{args.backbone_model}-use_mined{args.use_mined}-{args.repeat}.txt",
-              'r', encoding='utf-8') as predictFile:
-        for line in predictFile.readlines():
-            prediction.append(line.strip())
-    assert len(target) == len(prediction)
-
     # 2. Prepare evaluator
     from transformers import T5TokenizerFast
     tokenizer = T5TokenizerFast.from_pretrained(args.backbone_model)
+
+    # from transformers import AutoTokenizer
+    # tokenizer = AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-en-nl", use_fast=True)
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     evaluator = evaluation.CodeGenerationEvaluator(tokenizer, device, smooth_bleu=True)
 
-    # get the bleu score of the results
-    outp = {}
-    for ref, pred in tqdm(zip(target, prediction), total=len(target)):
-        if pred is not None and pred != "":
-            if ref is not None and ref != "":
-                metrics = evaluator.evaluate([pred], [ref])
-                for key, value in metrics.items():
-                    if outp.get(key):
-                        outp[key].append(value)
-                    else:
-                        outp[key] = [value]
+    result_text = ""
+    for beam_size_ in tqdm([1, 3, 5, 7], desc="repetitions"):
+        prediction = []
+        with open(f"../result/{args.backbone_model}-{args.train_option}-0-beam{str(beam_size_)}.txt",
+                'r', encoding='utf-8') as predictFile:
+            for line in predictFile.readlines():
+                prediction.append(line.strip())
+        assert len(target) == len(prediction)
 
-    for key in outp.keys():
-        outp[key] = [np.mean(outp[key])]
+        # get the bleu score of the results
+        outp = {}
+        # for ref, pred in tqdm(zip(target, prediction), total=len(target)):
+        for ref, pred in zip(target, prediction):
 
-    outp_df = pd.DataFrame(outp)
-    outp_df.to_csv(f"../result/{args.backbone_model}-use_mined{args.use_mined}-{args.repeat}.tsv", sep='\t')
+            if pred is not None and pred != "":
+                if ref is not None and ref != "":
+                    metrics = evaluator.evaluate([pred], [ref])
+                    for key, value in metrics.items():
+                        if outp.get(key):
+                            outp[key].append(value)
+                        else:
+                            outp[key] = [value]
+
+        for key in outp.keys():
+            outp[key] = np.mean(outp[key])
+
+        result_text += f"BLEU Score Beam {str(beam_size_)}: {outp['BLEU']}" + "\n"
+
+    with open(f"../result/{args.backbone_model}-{args.train_option}-result.txt", 'w') as saveFile:
+        saveFile.write(result_text)
 
 
 if __name__ == '__main__':

@@ -1,4 +1,6 @@
 import json
+
+import pandas as pd
 import torch
 import os
 import numpy as np
@@ -17,13 +19,14 @@ class TextGenerationDataset(Dataset):
             self,
             tokenizer,
             data_type: Text,
-            use_mined: bool = False,
+            train_option: Text = 'hq',
             seed: int = 1234,
             max_length: int = 128,
             padding: Text = "max_length",
             truncation: Text = "longest_first"
     ):
         assert data_type in ['train', 'validation', 'test']
+        assert train_option in ['hq', 'hq_mined', 'hq_augment']
         self.cross_entropy_ignore_index = -100
 
         # 1. Load Data
@@ -33,37 +36,32 @@ class TextGenerationDataset(Dataset):
                 data = json.load(readFile)
             inputs_ = [str(d['rewritten_intent']) for d in data]
             targets_ = [str(d['snippet']) for d in data]
+        elif data_type == 'validation':
+            data = pd.read_csv(os.path.join(DATA_DIR, "hq_val2.csv"), sep=',')
+            inputs_ = data['intent'].tolist()
+            targets_ = data['snippet'].tolist()
         else:
-            with open(os.path.join(DATA_DIR, "conala-train.json"), 'r') as readFile:
-                data = json.load(readFile)
-            inputs_ = [str(d['rewritten_intent']) for d in data]
-            targets_ = [str(d['snippet']) for d in data]
+            data = pd.read_csv(os.path.join(DATA_DIR, "hq_train2.csv"), sep=',')
+            inputs_ = data['intent'].tolist()
+            targets_ = data['snippet'].tolist()
 
-            if use_mined:
+            if train_option == 'hq_mined':
                 data = []
                 with open(os.path.join(DATA_DIR, "conala-mined.jsonl"), 'r') as readFile:
                     for line in readFile.readlines():
                         data.append(json.loads(line))
+
                 import random
                 random.seed(seed)
                 random.shuffle(data)
-                inputs_ += [str(d['intent']) for d in data[:35000]]
-                targets_ += [str(d['snippet']) for d in data[:35000]]
-
-            inputs_tr, inputs_test,  targets_tr, targets_test = train_test_split(
-                inputs_,
-                targets_,
-                random_state=seed,
-                test_size=0.1,
-                shuffle=True
-            )
-
-            if data_type == 'train':
-                inputs_ = inputs_tr
-                targets_ = targets_tr
+                inputs_ += [str(d['intent']) for d in data[:10000]]
+                targets_ += [str(d['snippet']) for d in data[:10000]]
+            elif train_option == 'hq_augment':
+                data = pd.read_csv(os.path.join(DATA_DIR, "train_aug.csv"), sep=',')
+                inputs_ += data['intent'].tolist()
+                targets_ += data['snippet'].tolist()
             else:
-                inputs_ = inputs_test
-                targets_ = targets_test
+                pass
 
         # 2. Tokenize Inputs
         print("Tokenizing Data...")

@@ -21,10 +21,11 @@ def return_args():
                         help='name of the backbone model to use')
 
     parser.add_argument('--repeat', type=int, default=0)
+    parser.add_argument('--beam_size', type=int, default=5)
 
     parser.add_argument('--batch_size', type=int, default=64)
 
-    parser.add_argument('--use_mined', action="store_true")
+    parser.add_argument('--train_option', type=str, default='hq', choices=['hq', 'hq_mined', 'hq_augment'])
 
     return parser.parse_args()
 
@@ -32,13 +33,13 @@ def return_args():
 def get_dataloader(
         tokenizer,
         cfg: Dict,
-        use_mined: bool = False
+        train_option: Text
 ):
     from dataset import TextGenerationDataset
     datasets = TextGenerationDataset(
                 tokenizer=tokenizer,
                 data_type='test',
-                use_mined=use_mined,
+                train_option=train_option,
                 max_length=cfg.get('max_length'),
                 padding=cfg.get('padding'),
                 truncation=cfg.get('truncation')
@@ -111,7 +112,7 @@ class Inferencer:
 
             with torch.no_grad():
                 outp_ = self.model.generate(**inputs,
-                                            num_beams=5,
+                                            num_beams=self.args.beam_size,
                                             repetition_penalty=2.5,
                                             length_penalty=1.0,
                                             early_stopping=True
@@ -138,8 +139,8 @@ def main():
     print("Loading model...")
     tokenizer, model = load_model(args.backbone_model)
 
-    model_file_name = os.path.join(PWD, f'../model_binary/{str(args.repeat)}/'
-                                        f'/{args.backbone_model}-use_mined{args.use_mined}.ckpt')
+    model_file_name = os.path.join(PWD, f'../model_binary'
+                                        f'/{args.backbone_model}-{args.train_option}.ckpt')
     if os.path.isfile(model_file_name):
         model = load_model_state_dict(model, model_file_name)
     else:
@@ -153,7 +154,7 @@ def main():
     data_loader = get_dataloader(
             tokenizer,
             cfg=cfg,
-            use_mined=args.use_mined
+            train_option=args.train_option,
     )
 
     inferencer = Inferencer(
@@ -168,7 +169,7 @@ def main():
     # Save the result
     save_dir = os.path.join(PWD, "../result/")
     os.makedirs(save_dir, exist_ok=True)
-    save_file_name = f"{args.backbone_model}-use_mined{args.use_mined}-{str(args.repeat)}.txt"
+    save_file_name = f"{args.backbone_model}-{args.train_option}-{str(args.repeat)}-beam{args.beam_size}.txt"
 
     with open(os.path.join(save_dir, save_file_name), 'w', encoding='utf-8') as saveFile:
         for line in prediction:

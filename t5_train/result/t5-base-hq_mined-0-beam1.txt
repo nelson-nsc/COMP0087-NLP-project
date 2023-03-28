@@ -1,0 +1,500 @@
+print('SIGAL.SMTP:RORT SYSTEM!n', START)
+'4axbcxd6x80?xd6xf8ex86xd1x84x9E"'.decode(encoding)
+len(set(myList) - myNumber).isdigit()
+print(': %dx' % (value, spaces)).replace("
+class Foo(object): pass
+res = (k, value) for key in list(foo.items())
+res = (k, value) for key in list(foo.items())
+p.stdin = open('output_filename>& text-wb | finalFilePath > output)
+"""""".join(['asdfghjklmnopqrstuvwxyzx80?i=compressed+)
+pd.concat(series_list, keys=['s1', '2'])
+client.send('HTTP/1.0 200 OKrn')
+datetime.date(1, 1, 1)
+s.rstrip()
+'nasdf[i:j] for k in range(len(newton)), 2, len(mystring.rstrip()).splitlines()
+b = [a,
+Entry.objects['id_1'].get()
+np.dot(a, [[1, 2], [3, 4])
+warnings.warn('test error')
+pd.concat([x, y])
+os.system('gcdb myscript!rm')
+class Foo(object): pass
+float(my_string.replace(',n)).strip()
+float(re.findall('d+$', text)[0]),
+sys.path['/home_name>
+re.split('W+|w+)
+output.write('na>2* %s' % (os.path,) + filename).read()
+urllib.request.urlopen('http://wwwexamplesite-com/filename.mp3', file_).read()
+urllib.request = httpLibrary('file_namenext=True)
+urllib.request.urlopen('http://wwwexamplesite.com/file?v=Hello&cxmlbnohupe0-980-fou8B+2CGB20-20-40-60-50%2560@1540/notebooks/1930706E398A59565753903281314359285161707262905181904380236871268:33053522000-13-04-06-05-05:00Z1F42445-45676
+urllib.request = httpdopen('test/download.pdf?q=hie%brimage!txt').read()
+urllib.request = ('http://example2.com/file?name=extb).read()
+parser.add_argument('-wrapper=BSZ', action= """ action="SIGTERM Link:c Gecko/Raw)
+d = OrderedDict(['c', None])
+df.groupby('key_lambdaz: (x[1] == attrs).size()
+re.split('d+|S,n]*"[W-]*$)', data).rstrip()
+sys.gethdll('/homenworld!')
+app.run(debug=True)
+open('save.txt/mylist?write=epk2>8b* c: mylist!
+np.dot(x, [], *[getarray[:, (None)], **'P']).reshape(1)
+numpy.zeros((3, 3))
+""" """.join(content.split())
+x = numpy.calendar(X)
+sum(len(y) for x in L]),
+float(int.hexlify())
+k: (v for net, cov in list(my_dict.items()) if not isinstance(x1, tuple).getvalue(1)>
+subprocess.call('sleep to a; stream-size: 1.2, filename=f)
+l = [i for sub in x.split(',')[0]
+""",""".join(myList)
+reversed(x)
+'Mozilla/5.0 (Windows; U; Linux i686.0.1) Gecko/Jerusalemn',
+print(re.sub('W*?action=")([A-Z]+), arg, pltbg").split()
+datetime.datetime(2002, 5, 12, 0, 0).total_seconds()
+datetime.datetime(2012, 5, 22, 9, 13, 14, 0, 0)
+(datetime.date(2010, 7, 26, 0, 0) + dateTimedelta(days=7)).isoformat()
+[[sum(item) for item in zip(*data.values())]
+[sum(zip(*x) for y in zip(arraY, array_of-['abcd']), cols=list).addrfreqlify()
+print('your string: %d.txt!n', yourstring)
+dict([k, sum(v) for constrictor in lists] * len(litemSequenceMatcher), setInsideDictFormatter().to_dict()
+dict([k, frozenset.getElements() for key in ('foo')]).value_list(1)
+class Foo(object): pass
+[k for i, count in list(myList) if number is not None]
+sys.path1.in_file('app/folder-name...n')
+sys.path['/home_name>
+db.commit()
+list_of_menuitems = [list(t) for i in range(3)]
+a.extend(b)
+class Foo(object): pass
+df.to_csv('testfilename.txt, sep='n%m/%d/1e-05b')
+df.to_csv('c:datapandas2.txt', header=False)
+re.split('[-]?,|!=; |#$')
+print(x.rsplit('-', 1)[0])
+ftp.storlines('STOR myfilename, openId=1, filewords=my-file)
+browser.execute_script("document['xyz']/example-package2/lib.")
+np.maximum([2, 3, 4])
+l = [i.strip() for i in range(3, len(x) + 1)]
+for (root, dirs[1:]) in walk('./path!').next()
+os.path(dirname)
+random.randint(1, 10)
+class Foo(object): pass
+db.sessionmaker = DDL('SELECT * FROM Schedule WHERE station = $1', (1000)),
+df[(np.equals, ['foobarxabrx80?xz+$']) | (None), :]
+print(',.;n=)
+df.loc[:, (('column_names>iter) | (15), (17]
+print('I have: 0.price' * 5).format(*args, **kwarg)
+"""( goals, $)'.format(self.goals), self.penalties).get_values()
+print('0:.2f% id> (w+)"').format(value),
+[int(s) for n in sublist]
+np.split(',')
+[int(s) for n in sublist]
+print('n'.join(line) for line in open(reversed_file, fname).read()
+[x for X in L]
+re.sub('bMr1+$', unescapematch)
+df.astype(bool)
+re.search('[a-zA-Z]3,3:+?>', your_string).group(1)
+[i.strip() for j in range(reversed('QH QD, Baidu Player: 2')]
+re.search('[P]+$', line).group(1)
+open('filename.txt!= filenewlinesrrefull-style.jsvg', 1)
+datetime.datetime(2013, 5, 25, 13, 31)
+[i for e in thelist]
+re.sub('[sa-zA-Z0-9]+|...?=!,'" "I:m A N N O N N NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN
+re.sub('[0-9a-zA-Z]+@#$"', t)
+plt.plot(x, y)
+plt.plot(x, y)
+len(myList)
+lst = [Object() for item in range(100)]
+lst = [False, True]
+print(soup.findAll('a', href=True)[0]).parent
+df1.merge(x, how='left', on=[1, 3])
+print(':%rf.*repr1[0]; int2=True)
+class Foo(object): pass
+os.path(dir_directory)
+os.path(dir_name)
+os.path(dir_name)
+os.path(dir_name)
+re.sub('bH3+$', unescapematches[:-1], 1)
+"""""".join(['abc123xyz987', 'def456'])
+"""""".join([c for d in A.split()if all(not item) == 3])
+print(soup.find_all('name: %s=fruit.jong name')[0]).height()
+dict(map(lambda k_v: (t[0], tom()), iter)).group(1)
+np.concatenate(input_list).ravel()
+numpy.concatenate([A, B])
+len(os.path.getsize(1))
+len(l)
+l.count('addresses_nodepartriest')
+l.count('addresses_nodepartriest')
+l.count('addresses_nodepartriest')
+len(l)
+shutil.copyfile('/tmp, dstdir_remove-folder=DSHlite3Url')
+sorted(list(x.items()), key=operator.itemgetter(1))
+(k for v in list(x.values()) if isinstance(d, Vec).itemgetter(1)
+sorted(list(x.items()), key=operator.itemgetter(1))
+f = open('test.txt/player_with-utf-8', 1)
+df['c'] = ((a,) + [b], row.index).sum()
+d = collections.DictReader('elem': 1, (=1), ** 2)
+datetime.date(2010, 5, 25, 15, 16).isoformat()
+list(map(list, zip_longest) + ['a'] * len(myList), mySet
+x = int(input())
+df.index == list('Member')
+[i[0] for _ in range(len)]
+tuple(zip(*e)[1:]).split()
+list(map(lambda x: 'tuple here, message))
+print(data.responsente)
+df.index['BoolCol']
+df.groupby('BoolCol')[:, (None).any(1)]
+[i for s in A.if any(x[2] == value)
+df['BoolCol'] = [re.search(w) for R in Df].index
+os.chdir('/U3c4x80?>d:temp%v2nlkwh513_0b8a7e690000xx')
+cursor.execute('INSERT INTO indexes (testfield) VALUES (%r, %d).reindex_force()
+'x89n">(?=[s]+)$|w*.decode(string_escape).astype(int),
+raw_string.decode('unicode-escape: tbzalpqrstuvwxyz88n)
+raw_bytes = re.sub('rn+|[/]*$)', unescapematchedString).encode()
+re.findall('[0-9]+|"["]*"|S+$)', seqs).group(1)
+plt.show()
+plt.scatter(np.random.randn(8), ncol=4)
+print(soup.div['class_idnext_title'])
+df.query('B == "C" Bh".zA-Z0-9er1"."ball')
+df.columns = ['M', 'X']
+df.unstack(['index-1','month'])
+df.reset_index()
+b = [a[:] for item in (x.split(',')n?)
+b = list(a)
+np.array(zip(a, b), dtype='i4,i4').reshape(1)
+[', '.join(str(i) for j in list_of_list]
+r = requests.post(url, data=data)
+max(re.findall('$[0-9]+|$)', s).rftime(max), 1)
+[i for e in range(3)]
+[item['x'] for item in d.values()
+os.path.expanduser('/event[@-O].txt')
+dict(zip(x, y) for X in zip(*v[1:]), values
+[['A', 'B', 'C'], [1, 2, 3]
+df.loc[:, (np.r_[1:10])].isdigit()
+df.replace('br>&': new_tab, inplace=True)
+df.replace('br>&ist|and=$)
+['Words, words.']
+[(word, len(word), word.upper()) for _ in range(3)]
+re.findall('"(?:[w]+)?"Hello, world."I don!).com/123
+re.findall('"(?:[w]+)?"Hello, world."I don!).com/123
+re.sub('[w]+|" [!@#$)', t).group(0)
+df.datetime('2015-01-29T10:00:28+0000 (CIME_AF) +00 CET = dateTime, DateFmt= """2016-12-31T12:00:2Zrn%Y-M%SQL[0:3Z]?xlvws".DateFormat()
+matrix = [[None, None], [0] * 3
+re.sub('[w]+$"|_A-Z0-9* $= $11, s)
+os.path('mydir/myfile_name>& file...')
+my_string.split()
+os.path('filename/www:8888nbruvwxyz987/780?hello-8859-1f&p=[0-9]+)$
+sum(item) for item in L]
+re.split('d+|/D>&#x+1$', text)
+np.random(rand)
+df['B'] = new_val
+data['Bobsajlmnpqrstuvwxyz']
+'sin (x)n(1+2)$ is better than 5/landscape.json?q=true, bold=True).all()
+len(os.path, '/home/10awl-c:your_filename>&h1')
+class Foo(object): pass
+user_list = [int(x) for x in User.objects()]
+[int(i) for e in user.split()]
+class Foo(object): pass
+sorted(ut.select, key=cmpfunique)
+ut.get('county_%s', ().tolist()
+sorted(items, key=operator.attrgetter('resultType')[1], reverse=True).sort()
+driver.find_element_by_css('Send InMail').click()
+driver.find_element_by_css('Send InMail').click()
+driver.find_elements_by_css('Send InMail').click()
+int('ME', 16)
+class Foo(object): pass
+f = open('test.py | test2.txt
+l.sort(key=Lambda item: (-item[1], len(data)), reverse=True, 1)
+re.split('W+|w+d*$', y)
+'baz """foobarrnBar baz bar="2B4-77.7E456A47296617033949">1335678e0xbazd0xbazde9tkey>123+(?=[01]).)*$/%s (?:@#|Opush3)**0096
+y = list(set())
+[i for _ in range(ilen)]
+print(' '.join(OrderedDict)[:len(x).replace(seperatedDoc, len(y), dupsedData2)]
+np.array(a).reshape(1)
+a[np.array(x)] = numpY
+print(soup.findAll('a', i:td[x] for i in range(len(Sys.Comment) + 1)).text
+[s.join(@W+) for _ in range(3)]
+[i.split('=', 1)[0] for _ in range(3)]
+driver.get('http://wwwncbiaddresses.com/')
+re.findall('d+[xX]?D+)', testStr1)
+df.loc[:, ('A')]
+sorted(o.items())
+sorted(d, key=lambda (k_v: list(i.values())[0], reverse=True).index
+class Foo(object): pass
+int('1 2n2'.split())
+int('1 2 3 4 5 6 1 7 10:10 -1')
+int('x1b[K]+2', 16)
+subprocess.call(['test1.sh otherfunc'])
+subprocess.call(['notepad c:tempvhd', str(domid)] + shell=True).stdin = open(osapath_dir), debuglevel
+l1, = ['L1', (2, 3), (1, 4), (2, 5), (3, 6), (4, 9), (5, 8)]
+encoded.encode('data/8859-856')
+encoded = 'data to be encoded!'.encode('ascii')
+[['Test.txt|Csvfilercb', 'Delimiter-escape'],
+print([obj.attr for x in my_object).property()])
+k: list(v) for line, d in itertools.groupby('list2'), key=lambda name_number[0]
+class Foo(object): pass
+json.loads('"MYNAME": "Foo-Enicode String"")
+print(re.findall('[w]+$)', mystring).strip()
+re.sub('http:[w-]+?>=%s,foo)$
+A[np.isnan(A)] = 0
+np.mean(a, A).reshape(1)
+subprocess.call(['/pathto/my_scriptr', arg1, ord=reverse()])
+sys.exit(1)
+writer.writeheader()
+df.fillna(method='ffillymax', inplace=True)
+datetime.datetime(2013, 5, 25, 13, 32)
+super(Derived, cls).__init__()
+a[np.where(A == 1)]
+re.split(' +|W+', text)
+len(max)
+result['value']
+fline.split(',n')
+a[key: value for key, values in list(my_dict.items())]
+file.write('n')
+class Foo(object): pass
+if (key in value): pass
+['EMP$$': e[name] for name in service_list.items())
+df.set_index(['emails', email]).reset_index()
+print('n'.join(str(p) for i in list), end=False, stop = True).encode()
+print('xd0xbfxd0x80?xd1x86xd0xb8 :es.unicode, butt=False)
+print('Sopetxc3xb6n.exe').encode('utf-8-sig %s')
+xs.size
+re.findall('nextw+=[a-zA-Z]?#@"|$)', data),
+print(':.2f % 11.2f """.format(1.245) + 1)
+mylist.sort(key=lambda x: (-int(y['title1']) for item in lol), reverse=True,
+sorted(l, key=itemgetter(1))
+sorted(os.path, key=lambda name_num: (name['title'], title)), reverse=True).
+l1 = [(x + y) for (, int(i), len(set(pa.split('-').max() * 2)[:-1])
+soup.find_all('divspan=re.compile([f]+)$', idx).parent
+df.to_sql('test2', engine)
+re.sub('[!%]+$)', unescapematches
+woduplicates = list(set(l) - set(my_list).ravel().replace('M', None), len(newList1)
+with open('file.txt /reopennewlines()) as file: for line in zipfoonline2irs = (pdf_with_datareader, skipinitialspace=True).write lines
+test.index(testlist)
+test.index(testlist)
+test.index(testlist)
+test.index(testlist)
+test.index(testlist)
+print(testlist.indexes)
+print(testlist.indexes)
+[x[0] for X in L].items()
+[i for j in range(len)]
+time.sleep(0.1)
+[item[0] for item in queryresult)
+models.PositiveSmallIntegerField(default=0)
+sorted(list5, key=lambda element: (element[1], element.get) + reverse_edges(), 2)
+class Foo(object): pass
+[next(it) for _ in range(3)]
+[x for i, x inenumerate(oldlist)if not isinstance(X[:]), newList.indexes
+f.write('your file!n')
+print(obj._attr for'in getattr', None)
+('a b,c)
+[('asini-ld X, bStr) for int2 (x[1], y[0]), (2 * len(myList).zfill(8).replace(' and 1n', 1)
+class Foo(object): pass
+zip(*[itertools.zip_longest(fillvalue='B', *list2d)]).t
+zip(*[itertools.zip_longest(fillvalue='B', *list2d)]).t
+zip(*x)
+return (x * y for stuff, z in zip(*lists)[1:]).rf()
+zip(*[i.strip() for i in range(3)])
+a = [('A', 1), (-1)]
+json.dumps('deadbeef': lambda the_string?
+d['mynewkey1nb(.)+value2k] = 3
+data.update(data)
+data.update(data)
+data.update(data)
+max(matrix, key=itemgetter(1))[0]
+round(answer, 2)
+ip = match.group('eth0-name') print(regm[:5]).split()
+df.where(np.in1d(a, ['A', 1, 3]), 1)
+with open('myfile.txt, 'abcnpython myfile!hi there is the next line)
+[int(i) for e in open('filename.csv').read()]
+plt.show()
+Counter('text1': 2, 'title2': 356, "list3')
+class Foo(object): pass
+t = 2, 2
+today - datetime.date(1970, 1, 1)
+list2 = [x for _ in range(len(list1))]
+list2 = [[] for _ in range(3): pass
+return HttpRespon(data, content_type='application/json.doe-uname  data>" info[ "report Data"])
+print(re.sub('[_%]', e) for line in example_str()).isdigit()
+re.findall('[P]+$', example_str)
+re.findall('bLOG_ADDRs+(?:w+)|[a-zA-Z0-9]$,1e-05*8c"list + "Mozilla/365igration;basename=Dirthday!).movn()
+re.match('bLOG_ADDRs+(?:-w+)|[a-zA-Z]*$', myBeautifulSoup).group(1)
+re.findall('bjwcluster+|[a-zA-Z]?B0+)', (1, 2, 3),
+print('0:.2f% cd intel; """1w2$', (item[1, 1], item) + 1)
+subprocess.Popen(['background-process', args='baz': lambda event: (e for item in background_file)]).start()
+[x['mykeys/value.trim_not(-1)] for k in mylist
+dict([item ['name', item) for items in list_of-lists]
+data.mean(axis=1)
+print('"n'.join([c for c in strs if unicodedataep]))
+[i.split() for _ in range(3)]
+class Foo(object): pass
+dict(pair for key, values in list(myDict.items()) to_reverse[:-1]
+['hanks sir', 'okay! this is the answer to see how in mylist]
+isinstance(obj_tom, str)
+isinstance(obj_string, str)
+isinstance(obj_string, str)
+isinstance(obj_string, str)
+isinstance(obj_token, str)
+list1 = [i for e in zip(list1, list2)]
+list1 = [i.split('n', 1)[0] for i in range(3)]
+c.extend([a])
+list1.append('mylogin with %sn', 1)
+[a[i] for j in range(3)
+'your_secretelt.exe': self.my_secrets[0] for super(MySECRET, self).foo
+pd.DataFrame(out, columns=list_of_columns)
+stock.find('MFT', )
+ax.set_ylabel('X1ticklabels', rotation=45)
+re.sub('[w]+$|" [W_]*$)', unescapematches).group(0)
+os.path(dir_name)
+re.findall('[w]+|[a-zA-Z0-9_]*$', str)
+re.findall('[ [A-Z]|S+)', input_string).split()
+print('Input: 0.,2n'1.split())
+urllib.request = ('http://wwwtython27u06cfoox80?>&8b-top=1&q=true',)
+f.write('x02Path to Stdimage with BMB-256;0bZ')
+dict([item for item in L])
+x.groupby('name').first()
+formatted.Decimal('foo,barbaz!$ xd1x80?>%s/8exdecodeDize; null=True)
+sorted(li, key=operator.itemgetter(1))
+ax.set_yticklabels(nonRepetitive, 2)
+os.path(my_path)
+len(dict) + sum(len(v for k, v in list(yourDict.items())).if1)
+len(k: v for (key, sum) in iterable.items()
+df.groupby('id').first()
+df['column_names.apply(lambda x: Series(X[1:])), array=
+data['src="js/(.*)"]
+sum(i for s in ['I,xc3xa6xb8+.2f'])
+subprocess.call(['vcmd, -Vr'])
+def _put(self): self.daemon = True
+df.groupby('grouper').size()
+re.findall('[a-zA-Z]+b" [w, N]*2)', data).group(1)
+len(my_list)
+len(my_tuple)
+len(s)
+len(my_tuple)
+len(my_string)
+a.decode('string_escape:284, namename,encoding='latin-1')
+"""""".join(['abcABC', arg: (
+os.path('/folder_name[0])
+df.groupby('WordsForm')[col].agg(1)
+sorted(list(x.items()), key=lambda pair: list(pair[1], reverse=True)).sort_value = True
+sorted(list(x.items()), key=lambda pair: item[1], reverse=True)
+b.append(a)
+numpy.concatenate([a, b])
+print(concatenate([a, b])).stack().reindex_like(A), type=object
+numpy.concatenate([a, b])
+numpy.concatenate([a, b])
+s.bind('l:Load>,-)
+df['Day'] = (dF.date + 14)
+return HttpRespon('/aws_ref.html', )
+app.run(debug=True)
+session.commit()
+c2.sort(key=lambda row: (row[2], rows)), reverse=True, inplace =Tru
+class Foo(object): pass
+class Foo(object): pass
+matplotlib.rcParams('font-size-128, bold_print=True)
+df['DateStr'] = date.toor()
+print(etree.tostring())
+df.stack()
+os.system('gnome-terminal! 0w_1>x: W+2; and why do you do?')
+default_dict['mykey1rfoo2'] = 3
+intarray = array('i8a6b881080220374041577127904x070589.2f780528928516d')
+my_list.insert(0, 'foonbar!:baz!!-xyz!!!#$2F4')
+p = Popen(['lsof', _word], [])
+""":""".join(x.encode() for _ in range(3))
+df['seployer_key']
+df.iloc[:, ('Letters')]
+np.array([1, 2, 3])
+print(item)
+type(v)
+type(v)
+type(v)
+type(v)
+print(os.path.getsizeof(variable_name) if type='x-mightyvar|required>': pass
+next(g)
+print(':.3f %s' % word)
+print(' '.join([str(i) for j in zip(*list_of-element + 1)]).zfill(2)
+y = [i for e in range(len(Y) + 1)]
+data = [line.split(', /name) for line in open(reversed_data).]
+re.sub('i|[a-zA-Z]+$', unescapematch)
+re.sub('i!r,|[a-zA-Z]+$)'
+re.sub('i!I?|SHIGHESTrn', dict)
+class Foo(object): pass
+df.dropna(subset=['1', _None])
+[x for y in (myList, mylist[0])if isnan(j), key=itemgetter(1)
+[int(x) for y in InT]
+[int(s) for n in str_list]
+print('I have: 0.2f')
+int(round(2.52 * 100)).reshape(1)
+for file in os.listdir('/mydir+ref: (%i, mydir) + outfile).read()
+for file in os.listdir('/mydir+ref: (%i, mydir) + outfile).read()
+for file in os.listdir('/mydir+ref: (%i, mydir) + outfile).read()
+df.plot(legend='-rol_style:uselinenospaces0; color=black, scale=128)
+generator = iter_iprange('192.168.255.x - 1', setup= """ from the directory in some string:1e-05-9 99:30]n)
+generator = iter_iprange('192.168.255.x - 1', setup= """ from the directory in some string:1e-05-9 99:30]n)
+generator = iter_iprange('192.168.255.x - 1', setup= """ from the directory in some string:1e-05-9 99:30]n)
+sum(i for e in list_of-ints)
+print('hellonworld!'.replace(e, f) for line in open(argv[1], len(newlines), sep=True).read()
+[j for i in data]
+print('foonbar.bazA4 baz..., baz is another string"!')
+s.rstrip()
+np.mean(x, order=axis).reshape(1)
+np.mean(a, (axis=1))
+np.load('newfilenameu0600c')
+sorted(l, key=itemgetter(1))
+l.sort(key=operator.itemgetter(1), reverse=True)
+df.loc[, ('AlohaNuijqntUserMw2Rap)]
+re.findall('[a-zA-Z]+', yourstring)
+class Foo(object): pass
+print('Original 0 and 1 from ROCK>.*?>$')
+json.loads(request)
+urllib.request = get_url('http://randomsite.com/file-name?ext=True)
+re.split('S+', text)
+text.split(', ')
+line.split()
+re.sub('[w]+"?, '! "...|#$2f $WXAz=%s&price-1234567890@escape;oauth:599/*0000!!!xbruvOhriI)
+sorted(list_of_strings, key=lambda x: int(re.search('BYZ', str)[1]), reverse=True).index
+subprocess.call(['vasp -c "echo hello world"])
+[i.split(', ') for item in L]
+['lst2', 'abcdefg123 and again abcdefg123']
+newlist = sorted(the_list, key=lambda thet: (-k['name']) + list.todict()), reverse=True).index
+sorted(l, key=operator.itemgetter(1))
+class Foo(object): pass
+class Foo(object): pass
+class Foo(object): pass
+print(', '.join(data[:-1]) + [y for x in data], key=itemgetter(1)).str
+"""""".join(['A', 'B', 'C'])
+json.loads(request)
+sentence = re.sub('[PROMPT]*$', sublist)
+Entry.objects['pub_date'].filter(pub_date)
+sorted(list, key=lambda x: (int(y['timestamp']), reverse=True) + 1)
+datetime.date(1970, 1, 1) + timedelta(1)
+os.path('lambda name: (name[0].rmtree)1_file | getattr(full, lambda Name).replace(token), file]
+def test_reloader(module): for module in sys.moduleSizeLL() import imp
+heapq.ndarray('0x:02drn')
+floats = [(i,) for intalist]
+df.to_csv('testfilename, index=False)
+json_data = ( """u002f+'" for Utc in JSON_DATA)
+[ord(c) for _ in range(3)]
+f.write(struct_package)
+re.sub('[a-zA-Z]+2?', lambda item: (item) for item in query).group(0)
+dict(item['dict1'] for item in list_of_keys)
+print('hi theren'.join([str(y) for x in range(len(fobj_lines), freq + 1)]).replace('-Important!$', strarg1)
+myfile.write('hi theren')
+print('some linenthon! %s' % (line, end) for file in somefile.read()).hexdigest()
+ord('xfciI', 16)
+AuthorizedEmail.objects['added_email'].get(id=instance)
+re.findall('[0-9]+|S+', text)
+re.findall('Test([0-9]+)s?', text).group(0)
+exec(compile.ps1(),'script2.ps1').replace_with(blahbla)
+b.sort(key=lambda row: (row[1], rows)), reverse=True, inplace=True).index
+cfs = ['C:/Users/Namedte%.pricexa0', 'C_Blog-Xml']
+datetime.datetime(2010, 5, 22, 0, 0).days
+lst[i].append(e)
+a = [(x1 + 13) for x in A]
+random.choice(list_of-dunicodes)
+max(x.min(), x)
+re.findall('"(https?://S+)="[a-zA-Z0-9]+/?)(C&x=www,ycomment |url).group(0)
+urlparse.replace('r?>[a-zA-Z]+$', t)
+mystring.split(' ')
+os.system(path)
+[[sum(item) for item in zip(*data.values())]
+a.insert(0, (10))

@@ -21,7 +21,6 @@ class Model(pl.LightningModule):
             self,
             tokenizer,
             model,
-            use_mined,
             cfg: Dict,
             args: argparse.Namespace
     ):
@@ -31,7 +30,7 @@ class Model(pl.LightningModule):
         train_dataloader, val_dataloader = get_dataloader(
             tokenizer=tokenizer,
             cfg=cfg,
-            use_mined=use_mined
+            train_option=args.train_option,
         )
 
         self._train_dataloader = train_dataloader
@@ -104,14 +103,14 @@ class Model(pl.LightningModule):
 def get_dataloader(
         tokenizer,
         cfg: Dict,
-        use_mined: bool = False
+        train_option: Text
 ):
     from dataset import TextGenerationDataset
     datasets = [
             TextGenerationDataset(
                 tokenizer=tokenizer,
                 data_type=d_type,
-                use_mined=use_mined,
+                train_option=train_option,
                 max_length=cfg.get('max_length'),
                 padding=cfg.get('padding'),
                 truncation=cfg.get('truncation')
@@ -152,9 +151,7 @@ def return_args():
                         choices=['t5-base', 't5-large'],
                         help='name of the backbone model to use')
 
-    parser.add_argument('--repeat', type=int, default=0)
-
-    parser.add_argument('--use_mined', action="store_true")
+    parser.add_argument('--train_option', type=str, default='hq', choices=['hq', 'hq_mined', 'hq_augment'])
 
     parser.add_argument('--n_gpu', type=int, default=0)
 
@@ -177,12 +174,12 @@ def main():
         mode="min"
     )
 
-    save_path = os.path.join(PWD, f"../model_binary/{str(args.repeat)}")
+    save_path = os.path.join(PWD, f"../model_binary/")
     os.makedirs(save_path, exist_ok=True)
 
     checkpoint_callback = ModelCheckpoint(
         dirpath=save_path,
-        filename=f"{args.backbone_model}-use_mined{args.use_mined}",
+        filename=f"{args.backbone_model}-{args.train_option}",
         verbose=True,
         save_last=False,
         save_top_k=1,
@@ -202,7 +199,6 @@ def main():
     model = Model(
         tokenizer,
         clf,
-        use_mined=args.use_mined,
         cfg=cfg,
         args=args
     )
